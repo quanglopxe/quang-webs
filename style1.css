@@ -1,0 +1,256 @@
+body
+    {
+        width: 100%;
+        height: auto;
+        background-color: rgb(247, 242, 242);
+        margin: 0 auto;
+    }
+    @media screen and (max-width:667px) 
+    {
+        body
+        {
+            background-color: darkkhaki;
+        }
+        .web-nav
+        {
+            display: none;
+        }
+        .mobile-nav
+        {
+            display: block;
+        }
+        .logo
+        {
+            float: left;
+            width: 120px;
+        }
+        .logo img
+        {
+            width: 100%;
+        }
+        .main
+        {
+            clear: both;
+            width: 100%;
+            height: auto;
+            margin: auto;
+            text-align: center;
+        }
+        .a
+        {
+            color: black;
+            text-decoration: none;
+        }
+        .a:hover
+        {
+            background-color: rgb(68, 65, 65);
+        }
+        .container-fluid3
+        {
+            position: relative;
+            top: 100px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-top: 1px solid rgb(102, 99, 99);
+            height: auto;
+            width:100%;
+            background-color: rgb(246, 240, 251);
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-areas:
+            'bot_left bot_mid bot_right'
+            'footer footer footer';
+        }
+
+        .bottom-left
+        {
+            width: 100%;
+            grid-area: bot_left;
+            float: left;
+        }
+        .bottom-mid
+        {
+            width: 100%;
+            grid-area: bot_mid;
+            float: left;
+        }
+        .bottom-mid li a
+        {
+            color: black;
+            text-decoration: none;
+        }
+        .bottom-right
+        {
+            width: 100%;
+            grid-area: bot_right;
+            float: left;
+        }
+        .bottom-right li a
+        {
+            color: black;
+            text-decoration: none;
+        }
+        .bottom-right i
+        {
+            padding-right: 10px;
+            padding-left: 10px;
+            color: black;
+            font-size: 20px;
+        }
+        .footer 
+        {
+            width: 100%;
+            background-color: darkslategray;
+            text-align: center;
+            grid-area: footer;
+        }
+        .footer a
+        {
+            color: white;
+            text-decoration: none;
+        }
+        .bi-facebook:hover
+        {
+            color: blue;
+        }
+        .bi-instagram:hover
+        {
+            color: rgb(230, 85, 33);
+        }
+        .bi-youtube:hover
+        {
+            color: red;
+        }
+        .bi-bag-fill:hover
+        {
+            color: orangered;
+        }
+        .bi-tiktok:hover
+        {
+            color: black;
+        }
+    }
+    /*-------------------------------------------------------------------------*/
+
+@media screen and (min-width:668px) 
+{
+    .web-nav
+        {
+            display: block;
+        }
+        .mobile-nav
+        {
+            display: none;
+        }
+        .logo
+        {
+            float: left;
+            width: 120px;
+        }
+        .logo img
+        {
+            width: 100%;
+        }
+        .main
+        {
+            clear: both;
+            width: 100%;
+            height: auto;
+            margin: auto;
+            text-align: center;
+        }
+        .a
+        {
+            color: black;
+            text-decoration: none;
+        }
+        .a:hover
+        {
+            background-color: rgb(68, 65, 65);
+        }
+        .container-fluid3
+        {
+            position: relative;
+            top: 100px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-top: 1px solid rgb(102, 99, 99);
+            height: auto;
+            width:100%;
+            background-color: rgb(246, 240, 251);
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-areas:
+            'bot_left bot_mid bot_right'
+            'footer footer footer';
+        }
+
+        .bottom-left
+        {
+            width: 100%;
+            grid-area: bot_left;
+            float: left;
+        }
+        .bottom-mid
+        {
+            width: 100%;
+            grid-area: bot_mid;
+            float: left;
+        }
+        .bottom-mid li a
+        {
+            color: black;
+            text-decoration: none;
+        }
+        .bottom-right
+        {
+            width: 100%;
+            grid-area: bot_right;
+            float: left;
+        }
+        .bottom-right li a
+        {
+            color: black;
+            text-decoration: none;
+        }
+        .bottom-right i
+        {
+            padding-right: 10px;
+            padding-left: 10px;
+            color: black;
+            font-size: 20px;
+        }
+        .footer 
+        {
+            width: 100%;
+            background-color: darkslategray;
+            text-align: center;
+            grid-area: footer;
+        }
+        .footer a
+        {
+            color: white;
+            text-decoration: none;
+        }
+        .bi-facebook:hover
+        {
+            color: blue;
+        }
+        .bi-instagram:hover
+        {
+            color: rgb(230, 85, 33);
+        }
+        .bi-youtube:hover
+        {
+            color: red;
+        }
+        .bi-bag-fill:hover
+        {
+            color: orangered;
+        }
+        .bi-tiktok:hover
+        {
+            color: black;
+        }
+}
+    

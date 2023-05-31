@@ -1,0 +1,157 @@
+body
+{
+    background-color: bisque;
+    width: 100%;
+}
+@media screen and (max-width:667px) 
+{
+    body
+    {
+        width: 100%;
+        background-color: rgb(140, 190, 174);
+    }
+    .web-container-fluid
+    {
+        display: none;
+    }
+
+    .mobile-container-fluid
+    {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        'me'
+        'project';
+    }
+    .me
+    {
+        text-align: center;
+        margin: auto;
+
+    }
+    .me img
+    {
+        border: 0.3px solid gray;
+        margin: auto;
+        border-radius: 50%;
+
+    }
+    .me .icon
+    {
+        font-size: 36px;
+        
+        
+    }
+    .bi-facebook
+    {
+        color: blue;
+    }
+    .bi-instagram
+    {
+        color: rgb(230, 85, 33);
+    }
+    .bi-youtube
+    {
+        color: red;
+    }
+    .project
+    {
+        border-top: 1px solid rgb(100, 98, 98);
+        position: relative;
+        top: 20px;
+        height: 470px;
+        margin: auto;
+        text-align:center;
+    }
+    .project h3
+    {
+        text-align: left;
+    }
+    .project a
+    {
+        text-decoration: none;
+    }
+    .project a:hover
+    {
+
+        color: dodgerblue;
+    }
+}
+
+
+@media screen and (min-width:668px)
+{
+    .web-container-fluid
+    {
+        display: block;
+    }
+    .mobile-container-fluid
+    {
+        display: none;
+    }
+    .web-container-fluid
+    {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        'me project';
+    }
+    .me
+    {
+        float: left;
+        text-align: center;
+        margin: auto;
+
+    }
+    .me img
+    {
+        border: 0.3px solid gray;
+        margin: auto;
+        border-radius: 50%;
+
+    }
+    .me .icon
+    {
+        font-size: 36px;
+        
+        
+    }
+    .bi-facebook
+    {
+        color: blue;
+    }
+    .bi-instagram
+    {
+        color: rgb(230, 85, 33);
+    }
+    .bi-youtube
+    {
+        color: red;
+    }
+    .project
+    {
+        position: relative;
+        bottom: 15px;
+        height: 470px;
+        float: left;
+        margin: auto;
+        text-align:center;
+    }
+    .project h3
+    {
+        text-align: left;
+    }
+    .project a
+    {
+        text-decoration: none;
+    }
+    .project a:hover
+    {
+
+        color: dodgerblue;
+    }
+}
